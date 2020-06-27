@@ -4,8 +4,9 @@
 	<title>formulir data</title>
 </head>
 <body>
+	<form method="POST" action="proses.php">
 	<h1 align="center">FORMULIR DATA</h1>
-	<form action="/action_page.php">
+	
 		<p>DATA</p>
 		<select name="status">
 			<option value="mhs">MAHASISWA</option>
@@ -18,7 +19,7 @@
 		<br>
 
 		<label>NIM :</label>
-		<label><input type="dropdown" name="" value=""></input></label>
+		<label><input type="dropdown" name="nim" value=""></input></label>
 		<br>
 
 		<br>
@@ -33,8 +34,8 @@
 
 		<br>
 		<label>JENIS KELAMIN :</label>
-		<label><input type="radio" name="jenis kelamin" value="Laki-laki">Laki-laki</input></label>
-		<label><input type="radio" name="jenis kelamin" value="Perempuan">Perempuan</input></label>
+		<label><input type="radio" name="jeniskelamin" value="Laki-laki">Laki-laki</input></label>
+		<label><input type="radio" name="jeniskelamin" value="Perempuan">Perempuan</input></label>
 		<br>
 
 		<br>
